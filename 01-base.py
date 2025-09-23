@@ -1,10 +1,6 @@
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
-
-import matplotlib.pyplot as plt
-from mpl_toolkits.basemap import Basemap
-
 # محدوده ایران [min lon, max lon, min lat, max lat]
 extent = [44, 64, 24, 40]
 
@@ -43,3 +39,4 @@ for city in cities:
 
 plt.title("Major Cities in Iran (Population Size)")
 plt.show()
+
