@@ -29,8 +29,9 @@ plt.bar([i + bar_width/2 for i in x], dead_count, width=bar_width, color='black'
 
 plt.title('Number of Survived and Dead in Each Passenger Class', fontsize=13, pad=10)
 plt.xlabel('Passenger Class', fontsize=11)
-plt.ylabel('Passenger Count', fontsize=11)
+plt.ylabel(f'Passenger Count (Total: {total_people})', fontsize=11)
 plt.xticks(x, [class_labels[c] for c in classes], fontsize=10)
 plt.legend(fontsize=10)
 plt.tight_layout()
 plt.show()
+
